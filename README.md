@@ -32,6 +32,12 @@ apt update -y  && apt install -y curl
 
 ### 一键脚本
 
+输入一下命令来执行
+
+```
+bash -c "$(curl -sS https://raw.githubusercontent.com/ShengCaiTeam/sh/main/shengcai.sh)"
+```
+
 ```bash
 curl -sS -O https://shengcai.team/shengcai.sh && chmod +x shengcai.sh && ./shengcai.sh
 ```
